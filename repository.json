@@ -1,5 +1,5 @@
-{
+ng{
   "name": "Hass.io owserver (1-Wire) addon",
-  "url": "https://github.com/lrybak/hassio-owserver",
-  "maintainer": "Łukasz Rybak <lukasz.rybak@gmail.com>"
+  "url": "https://github.com/davidbreitung/hassio-owserver",
+  "maintainer": "DB"
 }
