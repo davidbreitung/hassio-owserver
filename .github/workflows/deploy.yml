@@ -178,7 +178,7 @@ jobs:
         uses: peter-evans/repository-dispatch@v2.1.1
         with:
           token: ${{ secrets.DISPATCH_TOKEN }}
-          repository: lrybak/addon-repository-edge
+          repository: davidbreitung/addon-repository-edge
           event-type: update
           client-payload: >
             {
@@ -203,7 +203,7 @@ jobs:
         uses: peter-evans/repository-dispatch@v2.1.1
         with:
           token: ${{ secrets.DISPATCH_TOKEN }}
-          repository: lrybak/addon-repository-beta
+          repository: davidbreitung/addon-repository-beta
           event-type: update
           client-payload: >
             {
@@ -226,7 +226,7 @@ jobs:
         uses: peter-evans/repository-dispatch@v2.1.1
         with:
           token: ${{ secrets.DISPATCH_TOKEN }}
-          repository: lrybak/addon-repository
+          repository: davidbreitung/addon-repository
           event-type: update
           client-payload: >
             {
